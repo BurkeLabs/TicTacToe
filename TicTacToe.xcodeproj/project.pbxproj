@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		09129F701BBDC263009B789C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09129F6F1BBDC263009B789C /* main.m */; };
-		09129F791BBDC263009B789C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09129F771BBDC263009B789C /* Main.storyboard */; };
 		09129F7B1BBDC263009B789C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09129F7A1BBDC263009B789C /* Assets.xcassets */; };
-		09129F7E1BBDC263009B789C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09129F7C1BBDC263009B789C /* LaunchScreen.storyboard */; };
-		09129F891BBDC264009B789C /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09129F881BBDC264009B789C /* TicTacToeTests.m */; };
-		09129F941BBDC264009B789C /* TicTacToeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09129F931BBDC264009B789C /* TicTacToeUITests.m */; };
 		09FDA35B1BBDE5B50069C80C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09129F721BBDC263009B789C /* AppDelegate.m */; };
 		09FDA35C1BBDE5B80069C80C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09129F751BBDC263009B789C /* ViewController.m */; };
 		B08B8F881BC0BFEC00274659 /* TicTacWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08B8F871BC0BFEC00274659 /* TicTacWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B08B8F8A1BC0C51200274659 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09129F7F1BBDC263009B789C /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		B08B8F8F1BC0C5B500274659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08B8F8B1BC0C5B500274659 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B08B8F901BC0C5B500274659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08B8F8D1BC0C5B500274659 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +41,14 @@
 		09129F721BBDC263009B789C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		09129F741BBDC263009B789C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		09129F751BBDC263009B789C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		09129F781BBDC263009B789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09129F7A1BBDC263009B789C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		09129F7D1BBDC263009B789C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		09129F7F1BBDC263009B789C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09129F7F1BBDC263009B789C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09129F841BBDC264009B789C /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		09129F881BBDC264009B789C /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
-		09129F8A1BBDC264009B789C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09129F8F1BBDC264009B789C /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		09129F931BBDC264009B789C /* TicTacToeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeUITests.m; sourceTree = "<group>"; };
-		09129F951BBDC264009B789C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08B8F871BC0BFEC00274659 /* TicTacWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicTacWebViewController.m; path = "../../MMA_XCode/September Cohort/TicTacToe/TicTacToe/TicTacWebViewController.m"; sourceTree = "<group>"; };
 		B08B8F891BC0C00900274659 /* TicTacWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TicTacWebViewController.h; path = "../../MMA_XCode/September Cohort/TicTacToe/TicTacToe/TicTacWebViewController.h"; sourceTree = "<group>"; };
+		B08B8F8C1BC0C5B500274659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Downloads/TicTacToe/TicTacToe/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B08B8F8E1BC0C5B500274659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Downloads/TicTacToe/TicTacToe/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				09129F6D1BBDC263009B789C /* TicTacToe */,
-				09129F871BBDC264009B789C /* TicTacToeTests */,
-				09129F921BBDC264009B789C /* TicTacToeUITests */,
 				09129F6C1BBDC263009B789C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,12 +100,12 @@
 				B08B8F871BC0BFEC00274659 /* TicTacWebViewController.m */,
 				B08B8F891BC0C00900274659 /* TicTacWebViewController.h */,
 				09129F711BBDC263009B789C /* AppDelegate.h */,
+				B08B8F8B1BC0C5B500274659 /* LaunchScreen.storyboard */,
+				B08B8F8D1BC0C5B500274659 /* Main.storyboard */,
 				09129F721BBDC263009B789C /* AppDelegate.m */,
 				09129F741BBDC263009B789C /* ViewController.h */,
 				09129F751BBDC263009B789C /* ViewController.m */,
-				09129F771BBDC263009B789C /* Main.storyboard */,
 				09129F7A1BBDC263009B789C /* Assets.xcassets */,
-				09129F7C1BBDC263009B789C /* LaunchScreen.storyboard */,
 				09129F7F1BBDC263009B789C /* Info.plist */,
 				09129F6E1BBDC263009B789C /* Supporting Files */,
 			);
@@ -125,24 +118,6 @@
 				09129F6F1BBDC263009B789C /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		09129F871BBDC264009B789C /* TicTacToeTests */ = {
-			isa = PBXGroup;
-			children = (
-				09129F881BBDC264009B789C /* TicTacToeTests.m */,
-				09129F8A1BBDC264009B789C /* Info.plist */,
-			);
-			path = TicTacToeTests;
-			sourceTree = "<group>";
-		};
-		09129F921BBDC264009B789C /* TicTacToeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				09129F931BBDC264009B789C /* TicTacToeUITests.m */,
-				09129F951BBDC264009B789C /* Info.plist */,
-			);
-			path = TicTacToeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09129F7E1BBDC263009B789C /* LaunchScreen.storyboard in Resources */,
+				B08B8F8A1BC0C51200274659 /* Info.plist in Resources */,
 				09129F7B1BBDC263009B789C /* Assets.xcassets in Resources */,
-				09129F791BBDC263009B789C /* Main.storyboard in Resources */,
+				B08B8F901BC0C5B500274659 /* Main.storyboard in Resources */,
+				B08B8F8F1BC0C5B500274659 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09129F891BBDC264009B789C /* TicTacToeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09129F941BBDC264009B789C /* TicTacToeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,20 +291,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		09129F771BBDC263009B789C /* Main.storyboard */ = {
+		B08B8F8B1BC0C5B500274659 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				09129F781BBDC263009B789C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		09129F7C1BBDC263009B789C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09129F7D1BBDC263009B789C /* Base */,
+				B08B8F8C1BC0C5B500274659 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B08B8F8D1BC0C5B500274659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08B8F8E1BC0C5B500274659 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

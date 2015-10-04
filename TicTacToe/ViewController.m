@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelNine;
 @property (weak, nonatomic) IBOutlet UILabel *whichPlayerLabel;
 @property UILabel *player;
+@property (weak, nonatomic) IBOutlet UIButton *helpButton;
 
 @property CGPoint point;
 
@@ -80,6 +81,9 @@
     else {
         return nil;
     }
+}
+
+- (IBAction)onHelpButtonPressed:(id)sender {
 }
 
 // Determines Player Selection
